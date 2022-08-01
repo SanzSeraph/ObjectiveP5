@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "newLine": "LF",
+    "outDir": "dist",
+    "declarationDir": "@types",
+    "declaration": true,
+    "declarationMap": true,
+    "inlineSourceMap": false,
+    "importHelpers": false,
+    "noEmitHelpers": true,
+    "listEmittedFiles": true,
+    "experimentalDecorators": true,
+    "strict": true
+  },
+
+  "include": ["src/**/*", "typings/**/*"],
+
+  "compileOnSave": true
+}

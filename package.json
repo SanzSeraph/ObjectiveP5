@@ -1,0 +1,44 @@
+{
+  "name": "p5js-library-template",
+  "version": "2.0.1",
+  "description": "Sorta template to develop p5js library addons in TS",
+  "author": "GoToLoop",
+  "license": "Unlicense",
+  "homepage": "https://GitHub.com/GoToLoop/P5JS-Library-Template",
+  "main": "dist/classes/ball.mjs",
+  "types": "@types/classes/ball.d.mts",
+  "type": "module",
+  "private": false,
+  "keywords": [
+    "p5js-library",
+    "typescript-library",
+    "globalThis",
+    "template",
+    "example",
+    "types",
+    "module",
+    "bounce",
+    "mts",
+    "mjs"
+  ],
+  "scripts": {
+    "compile": "cd scripts && compile",
+    "start": "cd scripts && run",
+    "test": "cd scripts && compile && run",
+    "setup": "cd scripts && setup",
+    "update": "cd scripts && update",
+    "preinstall": "cd scripts && install-dev-apps & install-dev-libs & install-lib-types"
+  },
+  "devDependencies": {
+    "p5": ">=1",
+    "@types/p5": ">=1"
+  },
+  "peerDependencies": {
+    "typescript": ">=4.5.2",
+    "serve": "x"
+  },
+  "peerDependenciesMeta": {
+    "typescript": { "optional": true },
+    "serve": { "optional": true }
+  }
+}
